@@ -1,7 +1,4 @@
 #import "@preview/typewind:0.1.0": *
-#import "@preview/gantty:0.2.0": gantt
-#import "@preview/cineca:0.5.0": *
-#import "@preview/cetz:0.3.4": canvas, draw, tree
 #import "parts.typ": main_color, header_line, iop_color
 
 #set text(lang: "ja", font: ("Noto Sans CJK JP", "Noto Sans JP"))
