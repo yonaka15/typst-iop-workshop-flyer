@@ -66,15 +66,13 @@ weight: "black", size: 18pt)[#t]
 == 開催概要
 
 / 日時: #e[2025年7月12日（土）]13:00～17:00
-/ #h(5mm) #text(size: 9pt, fill: red)[※6月27日開催分と同じ内容です]
+#h(5mm) #text(size: 9pt, fill: red)[※6月27日開催分と同じ内容です]
 #v(2mm)
 / 会場: #e[Prompt-X高知オフィス]\
 #h(10mm) 〒780-0870 高知市本町4-2-44 グラン高知県庁前 4F-A
-#v(3mm)
 #line(length: 80%)
-#v(3mm)
-#text(size: 10pt, fill: gray-600)[
-  6月27日（金）の回はご好評につき終了しました。
+#h(12mm) #text(size: 10pt, fill: gray-600)[
+  6月27日（金）の回はご好評のうちに終了しました。
 ]
 
 
@@ -125,7 +123,6 @@ API
 )
 
 
-#v(5mm)
 
 #grid(columns:(1fr, 1.1fr, 1fr),
 align: left+horizon,
@@ -150,7 +147,7 @@ align: left+horizon,
 stroke: 1mm + gradient.linear(orange-200, sky-300, angle: 45deg),
 inset: 3mm,
 radius: 1mm,
-height: 50mm
+height: 40mm
 )[
 - IoTデバイスに興味を持つ方
 - AWS IoT Core の基礎を学びたい方
