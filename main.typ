@@ -1,7 +1,4 @@
 #import "@preview/typewind:0.1.0": *
-#import "@preview/gantty:0.2.0": gantt
-#import "@preview/cineca:0.5.0": *
-#import "@preview/cetz:0.3.4": canvas, draw, tree
 #import "parts.typ": main_color, header_line, iop_color
 
 #set text(lang: "ja", font: ("Noto Sans CJK JP", "Noto Sans JP"))
@@ -68,11 +65,16 @@ align: left+horizon,
 weight: "black", size: 18pt)[#t]
 == 開催概要
 
-
-/ 日時: #e[2025年6月27日（金）]13:00～17:00
+/ 日時: #e[2025年7月12日（土）]13:00～17:00
+#h(11mm) #text(size: 9pt, fill: red)[※6月27日開催分と同じ内容です]
 #v(2mm)
 / 会場: #e[Prompt-X高知オフィス]\
 #h(10mm) 〒780-0870 高知市本町4-2-44 グラン高知県庁前 4F-A
+#line(length: 80%)
+#h(12mm) #text(size: 10pt, fill: gray-600)[
+  6月27日（金）の回はご好評のうちに終了しました。
+]
+
 
 == 内容
 
@@ -121,7 +123,6 @@ API
 )
 
 
-#v(5mm)
 
 #grid(columns:(1fr, 1.1fr, 1fr),
 align: left+horizon,
@@ -146,7 +147,7 @@ align: left+horizon,
 stroke: 1mm + gradient.linear(orange-200, sky-300, angle: 45deg),
 inset: 3mm,
 radius: 1mm,
-height: 50mm
+height: 40mm
 )[
 - IoTデバイスに興味を持つ方
 - AWS IoT Core の基礎を学びたい方
