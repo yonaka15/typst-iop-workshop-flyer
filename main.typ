@@ -176,7 +176,7 @@ align: left+horizon,
 下記のリンクもしくは右のQRコードから入力フォームでお申し込みください
 
 #text(size: 8pt, fill: blue)[
-https://forms.office.com/r/Z1mby6fXYn
+https://forms.office.com/r/fBqWWu3We6
 ]
 
 #v(5mm)
